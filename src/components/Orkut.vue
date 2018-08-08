@@ -51,7 +51,7 @@ export default class Orkut extends Vue {
                 {
                     img: "ey_logo.jpg",
                     role: "IT Risk Consultant",
-                    enterprise: "Ernest & Young (EY)",
+                    enterprise: "Ernst & Young (EY)",
                     enterpriseActing: "Multinacional Enterprise",
                     period: "2015-2018",
                     acting:[                        
