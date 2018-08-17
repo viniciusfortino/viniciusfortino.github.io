@@ -1,9 +1,12 @@
 <template>
-    <div class="columns is-mobile list-apps">
-      <div @click="openFacebook" class="column is-offset-2 is-2 app" alt="Me"><img src="../assets/facebook.svg"></div>
-      <div @click="openOrkut" class="column is-2 app" alt="Experience"><img src="../assets/orkut.svg"></div>
-      <div @click="openTrello" class="column is-2 app" alt="Skills"><img src="../assets/trello.svg"></div>
-      <div @click="openGmail" class="column is-2 app" alt="Hire Me"><img src="../assets/gmail.svg"></div>
+    <div>
+      <div class="try-me">Click on apps!</div>
+      <div class="columns is-mobile list-apps">
+        <div @click="openFacebook" class="column is-offset-2 is-2 app" alt="Me"><img src="../assets/facebook.svg"></div>
+        <div @click="openOrkut" class="column is-2 app" alt="Experience"><img src="../assets/orkut.svg"></div>
+        <div @click="openTrello" class="column is-2 app" alt="Skills"><img src="../assets/trello.svg"></div>
+        <div @click="openGmail" class="column is-2 app" alt="Hire Me"><img src="../assets/gmail.svg"></div>
+      </div>
     </div>
 </template>
 
@@ -37,6 +40,13 @@ export default class Desktop extends Vue {
 
 
 <style scoped lang="scss">
+  .try-me{    
+    color: #fff;
+    position: absolute;
+    font-size: 1em;
+    top: 10%;
+    left: 30%;
+  }
   .list-apps{
     padding-top: 150%;
     img{
