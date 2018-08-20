@@ -1,5 +1,5 @@
 <template>
-    <video autoplay>
+    <video autoplay rel="preload" as="video">
       <source src="../assets/startup.mp4" type="video/mp4">
     </video>
 </template>
