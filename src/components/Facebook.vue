@@ -42,7 +42,7 @@
                 </li>
             </ul>
             <div class="linkedin columns is-mobile">
-                <a class="column is-offset-2 is-8" href="https://www.linkedin.com/in/vinicius-fortino-b7b18357/" target="_blank">
+                <a class="column is-offset-2 is-8" href="https://www.linkedin.com/in/vinicius-fortino/" target="_blank">
                     <img src="../assets/linkedin_global.svg">
                     <p>Linkedin</p>
                 </a>
